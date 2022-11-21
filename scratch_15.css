@@ -1,0 +1,58 @@
+h1 {
+color: orange
+}
+
+#calculate{
+
+color: #1C7628;
+background-color:#E7E7E7 ;
+border-color:#BFC6C0;
+margin-left:10%;
+margin-right:auto;
+display:block;
+margin-top:auto;
+margin-bottom:0%;
+border-radius: 12px;
+font-size:20px;
+}
+
+#quote {
+color: black;
+background-color: ;
+border-color:#CDE3C0;
+margin-left:10%;
+margin-right:auto;
+display:block;
+margin-top:auto;
+margin-bottom:0%;
+font-size:40px;
+
+
+}
+
+body{
+
+ background-color:#E5E5E5;
+
+}
+
+h2 {
+font-background-color:#93A996;
+}
+
+.results {
+background-image: url("https://img.freepik.com/free-photo/white-paper-texture-background_125540-900.jpg?t=st=1669006821~exp=1669007421~hmac=7bae685db14f196004ea0da08de4698f42ce279bf005001aa4a013aa6bc48b31")
+
+
+}
+.ans1{
+width: 30%;
+height: 100px;
+float: left
+
+}
+.ans{
+margin-left: 30%;
+height: 100px;
+
+}
