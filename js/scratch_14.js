@@ -14,7 +14,7 @@
 
         var bill = document.getElementById("bill").value;
 
-        generation.innerHTML= Math.round(area*panel_efficiency*H*PR/1000)+ " MW";
+        generation.innerHTML= Math.round(area*panel_efficiency*H*PR/1000)+ " MWh";
         saving.innerHTML= Math.round(bill*12)+ " €";
         var savings = (bill*12);
         var costs = ((panels*295)*3);
