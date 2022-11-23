@@ -2,58 +2,58 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
-<title> Solar Power Calculator </title>
-    <link rel="stylesheet" type="text/css" href="https://yeabsira8.github.io/solar-power-calculator/css/scratch_15.css">
+<title> 101 </title>
+    <link rel="stylesheet" href="C:\Users\YeabsiraYetagessu\AppData\Roaming\JetBrains\PyCharmCE2021.2\scratches\scratch_15.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+
 </head>
-<script type="text/javascript" src="https://yeabsira8.github.io/solar-power-calculator/js/scratch_14.js"></script>
-    
+<script src="C:\Users\YeabsiraYetagessu\AppData\Roaming\JetBrains\PyCharmCE2021.2\scratches\scratch_14.js" type="text/javascript"></script>
 <div class="topnav">
-  <a class="active" href="#home">Solar Power calculator</a>
+  <a class="active" id="home">Solar Power calculator</a>
+
 </div>
 <br>
 <br>
-    
-<body>
- <form name="myForm">
 
-    <label class="form-label">Please enter your rooftop area(m2): </label>
-    <input type="number" min="10" class="form-input" name="area" placeholder="Type your area" id="area">
+<body>
+<form name="myForm">
+  <div class="form">
+      <br>
+    <label class="form-label">Please enter your rooftop area (m2): </label>
+    <input type="number" min="10" maxlength="3" class="form-input" name="area" placeholder="Type your area" id="area"><br>
     <br>
-    <br>
-     <!--
-    <label class="form-label">Please enter your annual electricity consumption(kWh): </label>
-    <input type="number" min="0" class="form-input" name="consumption" placeholder="Type your consumption" id="consumption">
-    -->
-    <label class="form-label">Please enter your last monthly electricity bill: </label>
-    <input type="number" min="0" class="form-input" name="bill" placeholder="Type your bill " id="bill">
+    <label class="form-label">Please enter your last <strong>monthly</strong> electricity bill: </label>
+      <input type="number" class="form-input" name="bill" placeholder="Type your bill " id="bill">
     <br>
     <br>
     <input class="button" id="calculate" value="calculate" type="button" onclick="showResult()">
-
-
- </form>
- <div class="results">
- <hr/>
-
-       <h2> Results </h2>
+</div>
+<br>
+  </form>
+     <div class="results" id="answers22">
+     <h2 class="h2"> <strong> Results </strong></h2><hr class="hr1">
      <div class="ans1">
-       <p > Number of panels needed: <strong style="color: green" id="Number_of_panels_needed"></strong> </p>
+       <p>Number of panels: <strong style="color: green" id="Number_of_panels_needed"></strong> </p>
        <p > Solar Capacity: <strong style="color: green" id="capacity"></strong> </p>
        <p > Estimated Annual solar power generation: <strong style="color: green" id="generation"></strong> </p>
-       <p > Estimated Total cost: <strong style="color: green" id="e_cost"></strong>  </p>
+         <p > Estimated Total cost: <strong style="color: green" id="e_cost"></strong>  </p>
     </div>
+     <br>
      <br>
      <div class="ans">
        <p > Annual savings: <strong style="color: green" id="saving"></strong></p>
        <p > Payoff Period: <strong style="color: green" id="payoff"></strong> </p>
        <p > ROI: <strong style="color: green" id="roı"></strong>  </p>
-    </div>
+       <br>
+       <br>
+    </div><br>
+         <button  id="quote" > </button>
 
-      <br>
- </div>
-<button id="quote" > </button>
+</div>
+
+
 </body>
 </html>
