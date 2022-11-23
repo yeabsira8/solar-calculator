@@ -1,4 +1,19 @@
  function showResult() {
+  
+        var area1=document.myForm.area.value;
+
+        if (area1==null || area1==""){
+        alert("please type your area");
+        return false;
+        }
+
+        var area1=document.myForm.bill.value;
+
+        if (area1==null || area1==""){
+        alert("please type your bill");
+        return false;
+        }
+
 
         var panel_efficiency = 0.18;
         var H = 1000;
