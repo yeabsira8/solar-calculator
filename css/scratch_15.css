@@ -1,8 +1,10 @@
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden;
   border-radius: 10px;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -20,14 +22,16 @@
 
   background-color: #04AA6D;
   color: white;
-  font-family: "roboto mono"
+  font-family: "GT Walsheim Pro"
+
 }
 
 #calculate{
 
 color: #1C7628;
 border-color:#BFC6C0;
-margin-left:10%;
+background-color:white;
+margin-left:25%;
 margin-right:auto;
 display:block;
 margin-top:auto;
@@ -36,59 +40,114 @@ border-radius: 10px;
 font-size:20px;
 padding:5px;
 width:auto;
-border:0.001;
+border:0.0001%;
 box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 #quote {
-color: black;
-background-color: ;
+
+color: green;
+background-color:;
 border-color:#CDE3C0;
-margin-left:10%;
+margin-left:20%;
 margin-right:auto;
-display:block;
+
 margin-top:auto;
 margin-bottom:0%;
 font-size:40px;
+padding:5px;
+width:auto;
+border:0.0001%;
+box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+border-radius: 10px;
+
 
 
 }
 
 body{
 
- background-color:#E5E5E5;
+ background-color:#EFEFEF;
 
 
 }
 
-h2 {
-font-background-color:#93A996;
-font-family: 'roboto';
+.h2 {
+font-family: "GT Walsheim Pro";
 }
+.hr1 {
+width: auto%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
 
 .results {
-background-image: url("https://img.freepik.com/free-photo/white-paper-texture-background_125540-900.jpg?t=st=1669006821~exp=1669007421~hmac=7bae685db14f196004ea0da08de4698f42ce279bf005001aa4a013aa6bc48b31")
-
+margin-left:1%;
+margin-right:auto;
+display:none;
+margin-top:auto;
+margin-bottom:auto;
+border-radius: 10px;
+font-size:17px;
+padding:5px;
+width:50%;
+border:0.0001%;
+box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
 }
+.h2{
+margin-left:1%;
+}
+
+
 .ans1{
-width: 30%;
 height: 100px;
-float: left
+float:left;
+margin-left:2%;
+
 
 }
 .ans{
-margin-left: 30%;
+
 height: 100px;
+margin-left:60%;
 
 }
 
 .form-input{
+  margin-left:2%;
+  margin-right:50%;
+  margin-top:0.5%;
   padding:5px;
-  width:11%;
+  width:auto;
   border:0;
-  border-color:red;
+  border-color:white;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  font-family: 'Roboto';
   border-radius:5px;
+  font-family:"roboto"
+
+
+}
+
+.form {
+margin-left:1%;
+margin-right:auto;
+display:block;
+margin-top:auto;
+margin-bottom:1%;
+border-radius: 10px;
+font-size:17px;
+padding:5px;
+width:50%;
+border:0.0001%;
+box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+
+.form-label{
+margin-left:2%;
 }
